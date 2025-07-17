@@ -44,7 +44,7 @@
     <p>TAG App is designed with privacy in mind. We collect minimal information:</p>
     <ul>
         <li><strong>Apple ID Information:</strong> When you use "Sign in with Apple," we receive only your Apple ID email address and name (if you choose to share it).</li>
-        <li><strong>Contact Information:</strong> Your contact data is accessed to provide TAG functionality and may be uploaded to our secure servers to enable the TAG service.</li>
+        <li><strong>Contact Information:</strong> Phone numbers from your contacts are accessed to provide TAG functionality. When you create a TAG, only the specific phone number associated with that contact is uploaded to our secure servers to enable the TAG service. We do not upload contact names or any other contact information.</li>
         <li><strong>Device Information:</strong> Basic device information necessary for app functionality.</li>
         <li><strong>App Usage Data:</strong> Anonymous usage statistics to improve app performance.</li>
     </ul>
