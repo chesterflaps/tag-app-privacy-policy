@@ -14,95 +14,104 @@
             color: #333;
         }
         h1 {
-            color: #007AFF;
-            border-bottom: 2px solid #007AFF;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
             padding-bottom: 10px;
         }
         h2 {
-            color: #007AFF;
+            color: #34495e;
             margin-top: 30px;
         }
-        .last-updated {
-            background-color: #f8f9fa;
+        h3 {
+            color: #2c3e50;
+        }
+        .important {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
             padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 30px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .contact-info {
+            background-color: #e8f4fd;
+            border: 1px solid #bee5eb;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
         }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    
-    <div class="last-updated">
-        <strong>Last Updated:</strong> January 16, 2025
-    </div>
+    <h1>Privacy Policy for TAG App</h1>
+    <p><strong>Last updated: December 2024</strong></p>
 
     <h2>Introduction</h2>
-    <p>TAG App ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application.</p>
+    <p>TAG App ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our TAG App.</p>
 
     <h2>Information We Collect</h2>
-    <p>TAG App is designed with privacy in mind. We collect minimal information:</p>
-    <ul>
-        <li><strong>Apple ID Information:</strong> When you use "Sign in with Apple," we receive only your Apple ID email address and name (if you choose to share it).</li>
-        <li><strong>Contact Information:</strong> Phone numbers from your contacts are accessed to provide TAG functionality. When you create a TAG, only the specific phone number associated with that contact is uploaded to our secure servers to enable the TAG service. We do not upload contact names or any other contact information.</li>
-        <li><strong>Device Information:</strong> Basic device information necessary for app functionality.</li>
-        <li><strong>App Usage Data:</strong> Anonymous usage statistics to improve app performance.</li>
-    </ul>
+
+    <h3>Contact Information</h3>
+    <p>When you grant permission to access your contacts, TAG App collects phone numbers from your contacts to verify TAG availability and provide the TAG service. This data is uploaded to our secure servers only to check if TAGs are available and enable TAG functionality.</p>
+
+    <div class="important">
+        <strong>Important:</strong> We do not collect or store any other personal information from your contacts, such as names, email addresses, or other contact details. We only process phone numbers for the specific purpose of providing the TAG service.
+    </div>
+
+    <h3>Apple ID Information</h3>
+    <p>We use Apple's Sign in with Apple for secure authentication. We do not have access to your Apple ID information - this is handled securely by Apple. We only receive a unique identifier to verify your identity.</p>
+
+    <h3>TAG Information</h3>
+    <p>When you create TAGs, we store the TAG text and associated phone numbers to provide the TAG lookup service. This information is necessary for the core functionality of the app.</p>
 
     <h2>How We Use Your Information</h2>
-    <p>We use the information we collect to:</p>
     <ul>
-        <li>Provide and maintain the TAG App service</li>
-        <li>Authenticate your identity using Apple's secure system</li>
-        <li>Upload and process your contact data to enable TAG functionality</li>
-        <li>Improve app functionality and user experience</li>
-        <li>Provide customer support</li>
-    </ul>
-
-    <h2>Information Sharing</h2>
-    <p>We do not sell, trade, or otherwise transfer your personal information to third parties. We may share information only in the following circumstances:</p>
-    <ul>
-        <li>With your explicit consent</li>
-        <li>To comply with legal obligations</li>
-        <li>To protect our rights and safety</li>
+        <li><strong>Phone Numbers:</strong> Used only to verify TAG availability and enable TAG functionality. We do not use this data for any other purpose.</li>
+        <li><strong>TAG Data:</strong> Used to provide the TAG lookup and sharing service.</li>
+        <li><strong>Authentication:</strong> Used to verify your identity and secure your account.</li>
     </ul>
 
     <h2>Data Security</h2>
     <p>We implement appropriate security measures to protect your information:</p>
     <ul>
         <li>All data is encrypted in transit and at rest</li>
-        <li>We use Apple's secure authentication system</li>
-        <li>We follow industry best practices for data protection</li>
+        <li>We use secure cloud infrastructure (Firebase)</li>
+        <li>Access to your data is strictly limited to providing the TAG service</li>
     </ul>
 
-    <h2>Data Retention</h2>
-    <p>We retain your information only as long as necessary to provide our services. You can request deletion of your data at any time by contacting us.</p>
+    <h2>Data Sharing</h2>
+    <p>We do not sell, trade, or otherwise transfer your personal information to third parties, except:</p>
+    <ul>
+        <li>To provide the TAG service (phone numbers for verification)</li>
+        <li>When required by law</li>
+        <li>To protect our rights and safety</li>
+    </ul>
 
     <h2>Your Rights</h2>
     <p>You have the right to:</p>
     <ul>
-        <li>Access your personal information</li>
-        <li>Request correction of inaccurate data</li>
-        <li>Request deletion of your data</li>
-        <li>Delete your account completely through the app settings</li>
-        <li>Opt out of data collection (where applicable)</li>
+        <li><strong>Access:</strong> Request information about what data we have about you</li>
+        <li><strong>Delete:</strong> Request deletion of your account and associated data</li>
+        <li><strong>Control:</strong> Manage your TAG privacy settings within the app</li>
+        <li><strong>Opt-out:</strong> Deny contacts permission at any time through your device settings</li>
     </ul>
 
+    <h2>Account Deletion</h2>
+    <p>You can delete your account and all associated data at any time through the Settings tab in the app. This will permanently remove all your TAGs and account information from our servers.</p>
+
     <h2>Children's Privacy</h2>
-    <p>TAG App is not intended for children under 13. We do not knowingly collect personal information from children under 13.</p>
+    <p>Our app is not intended for children under 13. We do not knowingly collect personal information from children under 13.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy in the app and updating the "Last Updated" date.</p>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
 
     <h2>Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy or our data practices, please contact us at:</p>
-    <p><strong>Email:</strong> tagphoneapp@gmail.com<br>
-    <strong>Subject:</strong> TAG App Privacy Policy</p>
+    <div class="contact-info">
+        <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
+        <p><strong>Email:</strong> [Your contact email]</p>
+        <p><strong>Support URL:</strong> [Your support URL]</p>
+    </div>
 
-    <h2>California Privacy Rights</h2>
-    <p>If you are a California resident, you have additional rights under the California Consumer Privacy Act (CCPA). Please contact us for more information about these rights.</p>
-
-    <h2>International Users</h2>
-    <p>If you are using TAG App from outside the United Kingdom, please note that your information may be transferred to and processed in the United Kingdom, where our servers are located.</p>
+    <h2>Consent</h2>
+    <p>By using TAG App, you consent to the collection and use of your information as described in this Privacy Policy. You can withdraw your consent at any time by deleting your account or denying app permissions.</p>
 </body>
-</html> 
+</html>
